@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <svg id="trash" xmlns="http://www.w3.org/2000/svg" width="48" height="58" viewBox="0 0 48 58">
+  <path id="Rectangle_151" data-name="Rectangle 151" d="M0,0H40a0,0,0,0,1,0,0V40a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(4 14)" fill="#ecf0f1"/>
+  <path id="Rectangle_156" data-name="Rectangle 156" d="M24,30V2a2,2,0,1,1,4,0V30a2,2,0,1,1-4,0ZM12,30V2a2,2,0,0,1,4,0V30a2,2,0,1,1-4,0ZM0,30V2A2,2,0,0,1,4,2V30a2,2,0,1,1-4,0Z" transform="translate(10 20)" fill="#bdc3c7"/>
+  <rect id="Rectangle_152" data-name="Rectangle 152" width="40" height="2" transform="translate(4 12)" fill="#bdc3c7"/>
+  <rect id="Rectangle_153" data-name="Rectangle 153" width="48" height="6" transform="translate(0 6)" fill="#ecf0f1"/>
+  <path id="Rectangle_154" data-name="Rectangle 154" d="M2,6H0V4A4,4,0,0,1,4,0H24a4,4,0,0,1,4,4V6H26V4a2,2,0,0,0-2-2H4A2,2,0,0,0,2,4V6Z" transform="translate(10)" fill="#ecf0f1"/>
+</svg>
