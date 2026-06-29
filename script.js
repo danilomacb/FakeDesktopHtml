@@ -31,6 +31,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const taskbarIcons = document.querySelectorAll('.taskbar-icon:not(#start-button)');
+    taskbarIcons.forEach(icon => {
+        icon.addEventListener('click', () => {
+            if (icon.classList.contains('active-app')) {
+                icon.classList.remove('active-app');
+                icon.classList.add('open-app');
+            } else if (icon.classList.contains('open-app')) {
+                icon.classList.remove('open-app');
+            } else {
+                icon.classList.add('open-app');
+            }
+        });
+    });
+
     // Initialize and set interval for date and time
     updateDateTime();
     setInterval(updateDateTime, 1000);
