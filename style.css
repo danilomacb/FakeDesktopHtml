@@ -51,6 +51,21 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.taskbar-icon.active-app {
+    background-color: rgba(255, 255, 255, 0.15);
+    position: relative;
+}
+
+.taskbar-icon.active-app::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    width: 16px;
+    height: 3px;
+    background-color: #4cc2ff;
+    border-radius: 2px;
+}
+
 .taskbar-icon img {
     width: 24px;
     height: 24px;
