@@ -1,3 +1,21 @@
+// Helper globals para gerenciar o modo de exibição
+let defaultWallpaper = './Wallpaper/Gato.png';
+
+window.setAppMode = function(isApp, imageUrl) {
+    if (isApp) {
+        document.body.classList.add('app-mode');
+        if (imageUrl) document.body.style.backgroundImage = `url('${imageUrl}')`;
+    } else {
+        document.body.classList.remove('app-mode');
+        document.body.style.backgroundImage = `url('${defaultWallpaper}')`;
+    }
+};
+
+window.toggleAppMode = function(imageUrl) {
+    const isApp = !document.body.classList.contains('app-mode');
+    window.setAppMode(isApp, imageUrl);
+};
+
 function updateDateTime() {
     const timeElement = document.getElementById('time');
     const dateElement = document.getElementById('date');
