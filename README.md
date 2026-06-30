@@ -11,7 +11,7 @@ Abra o **Console do Navegador (F12)** e use os comandos abaixo:
 
 ```javascript
 // Ativar Modo App com a imagem de um aplicativo:
-setAppMode(true, './Caminho/Para/Sua/Imagem.png')
+setAppMode(true, './Wallpaper/FakeDiscord.png')
 
 // Desativar Modo App (voltar ao Desktop):
 setAppMode(false)
